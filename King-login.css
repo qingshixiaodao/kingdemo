@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrap{
+	width: 1200px;
+	margin: 0 auto;
+}
+#container{
+	padding:140px 0;
+	width: 400px;
+	margin: 0 auto;
+}
+#container img{
+	display: block;
+	margin: 0 auto;
+}
+.topic{
+	width: 400px;
+	height: 37px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.topic-box{
+	width: 40px;
+	background-color: black;
+	height: 37px;
+	float: left;
+}
+.topic-strip{
+	width: 320px;
+	float: left;
+	height: 14px;
+	background-color: black;
+}
+.topic-name{
+	overflow: hidden;
+	width: 400px;
+	margin: 0 auto;
+	font-weight: bold;
+}
+.topic-name-left{
+	float: left;
+	margin-left: 12px;
+}
+.topic-name-right{
+	float: right;
+	margin-right: 12px;
+}
+.login-box input{
+	display: block;
+	height: 30px;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border: 1px solid black;
+	outline: none;
+}
+.login-box p{
+	text-decoration: underline;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-left: 295px;
+	cursor: pointer;
+	color: grey;
+}
+.login-box p:hover{
+	color:black;
+}
+.login-btn{
+	cursor: pointer;
+	background-color: white;
+}
+.login-btn:hover{
+	background-color: black;
+	color:white;
+}
+/*------------*/
+.other-loginway-word{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+	text-decoration: underline;
+	color: grey;
+}
+.other-loginway-word:hover{
+	color: black;
+}

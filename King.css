@@ -1,0 +1,304 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#content{
+	list-style: none;
+	margin:0;
+	padding:0;
+	float: left;
+	position:fixed;
+	top:50%;
+	left:0;
+}
+#content li{
+	width: 60px;
+	height:30px;
+	text-align:center;
+	background:black;
+	margin-bottom:7px;
+	line-height: 30px;
+}
+#content li a{
+	color:white;
+	text-decoration: none;
+	font-weight: bold;
+}
+#content li .contactive{
+	color:black;
+	background:white;
+	border:1px solid black;
+	display: block;
+}
+#wrap{
+	width: 1200px;
+	float: left;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	margin: 0 auto;
+}
+#move-return{
+	height: 80px;
+	width: 30px;
+	background-color: black;
+	float: right;
+	position: absolute;
+	right: 0;
+	text-align: center;
+}
+#move-return a{
+	text-decoration: none;
+	color: white;
+	vertical-align: middle;
+}
+#nav{
+	height: 30px;
+	background-color:black;
+	overflow: hidden;
+	font-size: xx-small;
+}
+.nav-left{
+	overflow: hidden;
+	float: left;
+	list-style: none;
+	vertical-align: middle;
+	margin-left: 50px;
+}
+.nav-left li a{
+	color: white;
+	text-decoration: none;
+}
+.nav-left li a:hover{
+	color:orange;
+}
+.nav-left li, .nav-right li{
+	float: left;
+	color: white;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	cursor:pointer;
+	letter-spacing:2px;
+}
+.nav-left li:hover, .nav-right li:hover{
+	color: orange;
+}
+.nav-left li{
+	margin-left: 30px;
+}
+.nav-right li{
+	margin-right: 30px;
+}
+.nav-right{
+	overflow: hidden;
+	float: right;
+	list-style: none;
+	margin-right: 50px;
+}
+/*-----内容------*/
+.classification{
+	overflow: hidden;
+	height: 50px;
+}
+.classification img{
+	display: block;
+	margin-left: 177px;
+	float: left;
+	margin-top: 7px;
+	cursor: pointer;
+}
+.classification ul{
+	overflow: hidden;
+	float: right;
+	font-size:14px;
+	margin-right: 147px;
+}
+.classification ul li{
+	float: left;
+	list-style: none;
+	height: 50px;
+	line-height: 50px;
+	margin-right: 30px;
+	cursor: pointer;
+}
+.classification ul li a{
+	text-decoration: none;
+	color: black;
+}
+.classification ul a:hover{
+	color: orange;
+}
+.classification ul li input{
+	outline: none;
+	border: 1px solid black;
+	border-radius: 1px;
+	height: 25px;
+	line-height: 25px;
+}
+.lubo{
+	width: 1200px;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+.lubo ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.lubo img{
+	display: block;
+}
+.lubo dl{
+	width: 120px;
+	height: 20px;
+	position: absolute;
+	top: 370px;
+	left: 520px;
+	z-index: 3;
+}
+.lubo dl dd{
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+	border: 1px solid grey;
+}
+.changeBtn{
+	background-color:lightgrey;
+}
+.theme{
+	height: 35px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.theme-box{
+	height: 35px;
+	width: 77px;
+	background-color:black;
+	float: left;
+}
+.theme-strip{
+	height: 7px;
+	width: 1046px;
+	background-color: black;
+	float: left;
+	margin-top: 28px;
+}
+.theme-theme{
+	float: left;
+	width: 77px;
+	text-align: center;
+	height: 35px;
+	font-size: 30px;
+	font-weight: bold;
+}
+/*---商品----*/
+.goods{
+	height: 250px;
+	width: 1200px;
+	overflow: hidden;
+}
+.goods img{
+	display: block;
+	float: left;
+	margin-top:30px;
+	cursor:pointer;
+}
+.goods img:hover{
+	opacity: 0.6;
+}
+.goods-img,.goods-detail-li{
+	margin-left: 66px; 
+}
+
+/*------商品详情----*/
+
+.goods-detail ul{
+	list-style-type: none;
+	overflow: hidden;
+}
+.goods-detail ul li{
+	float: left;
+	width: 250px;
+	text-align: center;
+}
+.goods-detail ul li p{
+	margin-top: 7px;
+	font-size: 14px;
+	cursor: pointer;
+	line-height: 20px;
+}
+.goods-detail ul li p:hover{
+	color: red;
+	font-weight: bold;
+}
+/*--尾部---*/
+footer{
+	width: 1200px;
+	height: 300px;
+	margin: 35px 0 0 0;
+	overflow: hidden;
+	background-image: url(img/footer.png);
+	position: relative;
+}
+footer img{
+	display: block;
+	border: 1px solid red;
+}
+.footer-nav-0,.footer-nav-1,.footer-nav-2,.footer-nav-3,.footer-nav-4{
+	list-style: none;
+	float: left;
+	color: white;
+}
+.footer-nav-0{
+	position: absolute;
+	top: 90px;
+	left: 160px;
+}
+.footer-nav-1{
+	position: absolute;
+	top: 90px;
+	left: 360px;
+}
+.footer-nav-2{
+	position: absolute;
+	top: 90px;
+	left: 560px;
+}
+.footer-nav-3{
+	position: absolute;
+	top: 90px;
+	left: 760px;
+}
+.footer-nav-4{
+	position: absolute;
+	top: 90px;
+	left: 960px;
+}
+.footer-nav-name{
+	margin-bottom: 25px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.footer-nav-0 li,.footer-nav-1 li,.footer-nav-2 li,.footer-nav-3 li,.footer-nav-4 li{
+	margin-top: 10px;
+	font-size: 14px;
+	cursor: pointer;
+}
+footer ul li:hover{
+	color: orange;
+}
+.page-foot p{
+	padding: 20px 0;
+	font-size: small;
+	text-align: center;
+}
